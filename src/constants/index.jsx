@@ -1,16 +1,15 @@
 import { FaGithub, FaLinkedin, FaXTwitter, FaDiscord } from "react-icons/fa6";
 
-import blogSoluproint from "../assets/blog-soluproint.png";
+import seguridad from "../assets/seguridad-a-la-mano.png";
 import psicodava from "../assets/psicodava.png";
+import blogSoluproint from "../assets/blog-soluproint.png";
 import videoplayer from "../assets/videoplayer.png";
 import fupammar from "../assets/fupammar.png";
 import clothingStore from "../assets/clothing-store.png";
-import tomatoCrop from "../assets/tomato-crop.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiJavascript } from "react-icons/si";
@@ -83,14 +82,13 @@ export const PROJECTS = [
     id: 1,
     titleColor: "light",
     textColor: "white",
-    // name: "CyberByte Blog",
-    name: "Blog Soluproint",
+    name: "App Seguridad a la mano",
     description:
-      "Blog de la empresa Soluproint dónde comparto noticias sobre tendencias actuales en ciberseguridad y seguridad de la información.",
-    technologies: "React, Strapi, PostgreSQL",
-    image: blogSoluproint,
-    github: "https://github.com/Soluproint/Blog-Soluproint",
-    link: "https://www.soluproint.com/blog",
+      "Aplicación web-móvil dirigida hacia el personal de la seguridad privada en Colombia, dónde pueden registrarse, buscar ofertas de empleo, actualizar cursos y conectarse con empresas del sector.",
+    technologies: "Next.js, SASS, Node.js, MongoDB",
+    image: seguridad,
+    github: "https://github.com/Soluproint/Seguridad-a-la-mano-2024",
+    link: "https://app-web.seguridadalamano.com/",
   },
   {
     id: 2,
@@ -108,6 +106,19 @@ export const PROJECTS = [
     id: 3,
     titleColor: "light",
     textColor: "white",
+    // name: "CyberByte Blog",
+    name: "Blog Soluproint",
+    description:
+      "Blog de la empresa Soluproint dónde comparto noticias sobre tendencias actuales en ciberseguridad y seguridad de la información.",
+    technologies: "React, Strapi, PostgreSQL",
+    image: blogSoluproint,
+    github: "https://github.com/Soluproint/Blog-Soluproint",
+    link: "https://www.soluproint.com/blog",
+  },
+  {
+    id: 4,
+    titleColor: "light",
+    textColor: "white",
     name: "Video Player",
     description:
       "Proyecto del curso de introducción a la web, donde construyo un reproductor de video desde cero con todos sus componentes.",
@@ -117,7 +128,7 @@ export const PROJECTS = [
     link: "https://manuelalopezv.github.io/video-player/",
   },
   {
-    id: 4,
+    id: 5,
     titleColor: "dark",
     textColor: "black",
     name: "FUPAMMAR",
@@ -129,7 +140,7 @@ export const PROJECTS = [
     link: "",
   },
   {
-    id: 5,
+    id: 6,
     titleColor: "dark",
     textColor: "black",
     name: "Clothing Store",
@@ -137,18 +148,6 @@ export const PROJECTS = [
       "Proyecto universitario de página web de una tienda de ropa, donde se pueden ver los productos, hacer cálculos matemáticas según promociones y descuentos.",
     technologies: "HTML, CSS, JavaScript, Oracle",
     image: clothingStore,
-    github: "",
-    link: "",
-  },
-  {
-    id: 6,
-    titleColor: "dark",
-    textColor: "black",
-    name: "Tomato Crop",
-    description:
-      "Sistema de conteo de tomates para una empresa tomatera donde se lleva el control de la producción, estadísticas y reportes.",
-    technologies: "Java, CSS, MySQL",
-    image: tomatoCrop,
     github: "",
     link: "",
   },
