@@ -28,7 +28,7 @@ const ContactForm = () => {
 
   const validate = () => {
     let errors = {};
-    if (!formData.name) errors.name = "El nombre es requerido";
+    if (!formData.name) errors.name = "Debes ingresar un nombre";
     if (!formData.email) {
       errors.email = "El correo electrónico es requerido";
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
