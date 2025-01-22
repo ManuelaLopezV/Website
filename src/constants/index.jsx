@@ -13,6 +13,9 @@ import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiJavascript } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { IoLogoCss3 } from "react-icons/io";
+
 
 export const GREETING = {
   name: "Manuela López",
@@ -32,7 +35,7 @@ export const NAVIGATION_LINKS = [
 export const ABOUT_ME = [
   {
     firstParagraph:
-      "Desarrolladora Fullstack con 2 años de experiencia práctica en el desarrollo de aplicaciones web y móviles, creando soluciones innovadoras y eficientes.",
+      "Desarrolladora Fullstack con más de 2 años de experiencia práctica en el desarrollo de aplicaciones web y móviles modernas, creando soluciones innovadoras y eficientes utilizando JavaScript y sus frameworks más populares como React y Node.js.",
   },
   {
     firstParagraph:
@@ -40,7 +43,7 @@ export const ABOUT_ME = [
   },
   {
     secondParagraph:
-      "Soy apasionada por aprender, me gusta estar actualizada en tendencias y nuevas tecnologías, siempre buscando mejorar mis habilidades y conocimientos.",
+      "Me apasiona aprender, estoy en constante actualización de tendencias y nuevas tecnologías, siempre buscando mejorar mis habilidades y conocimientos.",
   },
 ];
 
@@ -71,9 +74,19 @@ export const STACK = [
     experience: "1+ year",
   },
   {
-    icon: <BiLogoPostgresql className="text-3xl text-sky-700 md:text-4xl lg:text-5xl" />,
+    icon: <BiLogoPostgresql className="text-3xl text-sky-800 md:text-4xl lg:text-5xl" />,
     name: "PostgreSQL",
     experience: "1+ year",
+  },
+  {
+    icon: <FaHtml5 className="text-3xl text-red-500 md:text-4xl lg:text-5xl" />,
+    name: "HTML5",
+    experience: "3+ years",
+  },
+  {
+    icon: <IoLogoCss3 className="text-3xl text-sky-600 md:text-4xl lg:text-5xl" />,
+    name: "CSS3",
+    experience: "3+ years",
   },
 ];
 
@@ -186,39 +199,50 @@ export const EDUCATION = [
     institution: "Politécnico Colombiano Jaime Isaza Cadavid",
     duration: "Febrero 2022 - Septiembre 2024",
     description:
-      "Formación sólida base en el desarrollo de software y gestión de sistemas de información, con énfasis en lenguajes de programación como Java, Python, JavaScript. Desarrollé habilidades en bases de datos, tanto en conocimiento de SQL, modelado y gestión de bases de datos. Aprendí a diseñar, implementar y mantener aplicaciones informáticas, aplicando metodologías de desarrollo ágil y buenas prácticas de programación. Realicé varios proyectos cómo programas de escritorio, de desarrollo de fullstack, algoritmos y estructuras de datos.",
+      "Formación sólida base en el desarrollo de software y gestión de sistemas de información, con énfasis en lenguajes de programación como Java, Python, JavaScript. Desarrollé habilidades en bases de datos, tanto en conocimiento de SQL, cómo en modelado y gestión de bases de datos. Aprendí a diseñar, implementar y mantener aplicaciones informáticas, aplicando metodologías de desarrollo ágil y buenas prácticas de programación. Realicé varios proyectos cómo programas de escritorio, de desarrollo de fullstack, algoritmos y estructuras de datos.",
     aditional: "Graduada con promedio 4,2.",
+  },
+  {
+    degree: "Node.js: De cero a experto",
+    institution: "Udemy",
+    duration: "Octubre 2024 - Enero 2025",
+    description:
+      "Este curso me proporcionó una comprensión sólida y profunda de Node.js, dónde adquirí conocimientos sobre su arquitectura, gestión de módulos, paquetes y dependencias, desarrollo de aplicaciones web con Express implementando servidores, manejo de rutas y gestión de solicitudes, integración con bases de datos realizando operaciones CRUD de manera eficiente y desarrollo de APIs RESTfull siguiendo las mejores prácticas, facilitando la comunicación entre el frontend y el backend.",
   },
   {
     degree: "Universidad JavaScript - De cero a experto",
     institution: "Udemy",
-    duration: "Octubre 2024 - Actualidad",
+    duration: "Octubre 2024 - Enero 2024",
     description:
       "Curso avanzado de JavaScript donde obtuve formación completa y actualizada del lenguaje. Inluye teoría que cubre todos los conceptos fundamentales y avanzados, desde la sintaxis básica hasta las últimas actualizaciones. Además, el curso integra un enfoque práctico basado en proyectos reales, permitiendo desarrollar habilidades de programación a través de la creación de aplicaciones y soluciones.",
   },
   {
-    degree: "Figma: Técnicas Avanzadas de Diseño",
-    institution: "Platzi",
-    duration: "Octubre 2023 - Noviembre 2023",
+    degree: "JavaScript Moderno: Guía para dominar el lenguaje",
+    institution: "{d/t} - DevTalles",
+    duration: "Octubre 2024 - Enero 2025",
     description:
-      "Curso de Figma en el que aprendí a utilizar herramientas avanzadas de diseño para crear interfaces de usuario atractivas y funcionales. Desarrollé habilidades en la creación de wireframes, mockups y prototipos interactivos, y aprendí a trabajar con componentes, estilos y bibliotecas de diseño para optimizar el flujo de trabajo y mejorar la productividad. Adquirí conocimientos en diseño de interfaces para aplicaciones web y móviles.",
+      "Este curso me llevo desde un nivel básico hasta un dominio avanzado de JavaScript, preparándome para el mercado laboral actual aprendiendo fundamentos, módulos y herramientas, manejo de asincronía, operaciones CRUD y manipulación del DOM. Todo esto a través de ejercicios prácticos y proyectos reales que me prepararon para enfrentar desafíos en el desarrollo de aplicaciones web con diferentes frameworksy librerías.",
   },
   {
-    degree: "Curso Definitivo de HTML y CSS",
-    institution: "Platzi",
-    duration: "Septiembre 2023 - Octubre 2023",
+    degree: "Curso de Terminal para Frontends",
+    institution: "Leonidas Esteban",
+    duration: "Abril 2024 - Abril 2024",
     description:
-      "Curso de HTML y CSS donde apliqué técnicas de diseño atractivo y funcional. Desarrollé habilidades en la creación de estructuras HTML y en la aplicación de estilos CSS para mejorar la presentación de los contenidos. Aprendí a utilizar las últimas tecnologías y técnicas para crear sitios web modernos y responsivos, y a optimizar el rendimiento y la accesibilidad de las páginas.",
+      "Aprendí sobre navegación y gestión de archivos y directorios, realizando tareas como moverme entre carpetas, crear, copiar, mover y eliminar. También se comprendí la estructura y componentes de los comandos de una terminal, incluyendo opciones y parámetros. Por último se incluyeron prácticas para inicializar proyectos en React (frontend) y Express (backend).",
   },
   {
-    degree: "Pensamiento Lógico:",
-    subtitle1: "Algoritmos y Diagramas de Flujo",
-    subtitle2: "Manejo de Datos, Estructuras y Funciones",
-    subtitle3: "Lenguajes de programación",
+    degree: "Curso Definitivo de HTNL y CSS",
     institution: "Platzi",
-    duration: "Julio 2023- Septiembre 2023",
+    duration: "Abril 2024 - Abril 2024",
     description:
-      "Curso de Pensamiento Lógico en el que aprendí conceptos básicos de programación y desarrollé habilidades en la creación de programas y aplicaciones utilizando lenguajes como Python, JavaScript y Java. Desarrollé algoritmos y diagramas de flujo para resolver problemas de programación. Adquirí habilidades en el manejo de datos, estructuras y funciones, y aprendí a diseñar algoritmos eficientes y a implementarlos en código",
+      "Curso avanzado de HTML y CSS, donde aprendí a crear sitios web modernos y responsivos, utilizando las últimas tecnologías y técnicas de diseño. Adquirí conocimientos sobre maquetación, diseño web, animaciones, flexbox, grid, responsive design, entre otros. Realicé varios proyectos prácticos que me permitieron aplicar los conceptos aprendidos y mejorar mis habilidades de desarrollo frontend.",
+  },
+  {
+    degree: "Diplomado en Programación en Java:",
+    institution: "Politécnico de Colombia",
+    duration: "Agosto 2023- Septiembre 2023",
+    description:
+      "Conocimiento de los conceptos básicos y aplicaciones del lenguaje Java para la programación en cuanto a variables, operadores, tipos de datos, clases de Java, también se abordan diferentes módulos de estructuras condicionales y  de iteración para almacenamiento de datos en vectores y matrices, estructuración de la programación orientada a objetos y sus componentes y  caracteristicas teoricas de la programación web en Java.",
   },
 ];
 

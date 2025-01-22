@@ -5,6 +5,7 @@ import { FiSend } from "react-icons/fi";
 import { SiMinutemailer } from "react-icons/si";
 import { IoMdCall } from "react-icons/io";
 import { motion } from "framer-motion";
+import CV from "../assets/CV_Manuela_López.pdf";
 
 const ContactForm = () => {
 
@@ -103,7 +104,7 @@ const ContactForm = () => {
             </div>
           </div>
           <a
-            href=""
+            href={CV}
             download
             className="mt-6 w-3/4 text-center rounded border border-stone-50/30 bg-purple-400 px-4 py-2 text-sm xl:text-lg 2xl:text-xl font-semibold text-stone-900 hover_bg-stone-300"
           >

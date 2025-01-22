@@ -5,7 +5,7 @@ import manuelaEmoji from "../assets/manuela-emoji-2.png";
 import { useTheme } from "../theme/ThemeContext";
 import moonIcon from "../assets/moon.svg";
 import sunIcon from "../assets/sun.svg";
-import CV from "../assets/CV_Manuela_López1.pdf";
+import CV from "../assets/CV_Manuela_López.pdf";
 
 const Home = () => {
   const { theme, toggleTheme } = useTheme();
