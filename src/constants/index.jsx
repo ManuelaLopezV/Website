@@ -1,11 +1,11 @@
 import { FaGithub, FaLinkedin, FaXTwitter, FaDiscord } from "react-icons/fa6";
 
 import seguridad from "../assets/seguridad-a-la-mano.png";
-import psicodava from "../assets/psicodava.png";
+import happyPets from "../assets/happy-pets.png";
 import blogSoluproint from "../assets/blog-soluproint.png";
+import psicodava from "../assets/psicodava.png";
 import videoplayer from "../assets/videoplayer.png";
 import fupammar from "../assets/fupammar.png";
-import clothingStore from "../assets/clothing-store.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -107,13 +107,13 @@ export const PROJECTS = [
     id: 2,
     titleColor: "dark",
     textColor: "black",
-    name: "PSICODAVA",
+    name: "Happy Pets",
     description:
-      "Landing Page de la Psicologa Dahiana Valencia, donde brinda información sobre sus servicios, modalidades de terapia e información de contacto.",
-    technologies: "HTML, CSS, JavaScript",
-    image: psicodava,
-    github: "https://github.com/PSICODAVA/website",
-    link: "https://psicodava.github.io/website/",
+      "Gestión de mascotas para una veterinaria, dónde se pueden registrar, editar y eliminar mascotas, ver su información y agendar citas.",
+    technologies: "Next.js, React, Material-UI",
+    image: happyPets,
+    github: "https://github.com/ManuelaLopezV/happy-pets",
+    link: "https://happy-pets-beryl.vercel.app/",
   },
   {
     id: 3,
@@ -130,6 +130,18 @@ export const PROJECTS = [
   },
   {
     id: 4,
+    titleColor: "dark",
+    textColor: "black",
+    name: "PSICODAVA",
+    description:
+      "Landing Page de la Psicologa Dahiana Valencia, donde brinda información sobre sus servicios, modalidades de terapia e información de contacto.",
+    technologies: "HTML, CSS, JavaScript",
+    image: psicodava,
+    github: "https://github.com/PSICODAVA/website",
+    link: "https://psicodava.github.io/website/",
+  },
+  {
+    id: 5,
     titleColor: "light",
     textColor: "white",
     name: "Video Player",
@@ -141,7 +153,7 @@ export const PROJECTS = [
     link: "https://manuelalopezv.github.io/video-player/",
   },
   {
-    id: 5,
+    id: 6,
     titleColor: "dark",
     textColor: "black",
     name: "FUPAMMAR",
@@ -150,18 +162,6 @@ export const PROJECTS = [
     technologies: "HTML, CSS, Node.js, Oracle",
     image: fupammar,
     github: "https://github.com/ManuelaLopezV/FUPAMMAR",
-    link: "",
-  },
-  {
-    id: 6,
-    titleColor: "dark",
-    textColor: "black",
-    name: "Clothing Store",
-    description:
-      "Proyecto universitario de página web de una tienda de ropa, donde se pueden ver los productos, hacer cálculos matemáticas según promociones y descuentos.",
-    technologies: "HTML, CSS, JavaScript, Oracle",
-    image: clothingStore,
-    github: "",
     link: "",
   },
 ];
