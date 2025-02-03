@@ -218,7 +218,7 @@ export const EDUCATION = [
   {
     degree: "Node.js: De cero a experto",
     institution: "Udemy",
-    duration: "Octubre 2024 - Enero 2025",
+    duration: "Noviembre 2024 - Enero 2025",
     description:
       "Este curso me proporcionó una comprensión sólida y profunda de Node.js, dónde adquirí conocimientos sobre su arquitectura, gestión de módulos, paquetes y dependencias, desarrollo de aplicaciones web con Express implementando servidores, manejo de rutas y gestión de solicitudes, integración con bases de datos realizando operaciones CRUD de manera eficiente y desarrollo de APIs RESTfull siguiendo las mejores prácticas, facilitando la comunicación entre el frontend y el backend.",
   },
@@ -244,7 +244,7 @@ export const EDUCATION = [
       "Aprendí sobre navegación y gestión de archivos y directorios, realizando tareas como moverme entre carpetas, crear, copiar, mover y eliminar. También se comprendí la estructura y componentes de los comandos de una terminal, incluyendo opciones y parámetros. Por último se incluyeron prácticas para inicializar proyectos en React (frontend) y Express (backend).",
   },
   {
-    degree: "Curso Definitivo de HTNL y CSS",
+    degree: "Curso Definitivo de HTML y CSS",
     institution: "Platzi",
     duration: "Abril 2024 - Abril 2024",
     description:
