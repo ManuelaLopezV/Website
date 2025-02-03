@@ -16,7 +16,6 @@ import { SiJavascript } from "react-icons/si";
 import { FaHtml5 } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io";
 
-
 export const GREETING = {
   name: "Manuela López",
   greet: "Hola,",
@@ -49,44 +48,58 @@ export const ABOUT_ME = [
 
 export const STACK = [
   {
-    icon: <RiReactjsLine className="text-3xl text-cyan-400 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <RiReactjsLine className="text-3xl text-cyan-400 md:text-4xl lg:text-5xl" />
+    ),
     name: "React",
-    experience: "1.5+ years",
+    experience: "2 years",
   },
   {
-    icon: <FaNodeJs className="text-3xl text-green-600 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <FaNodeJs className="text-3xl text-green-600 md:text-4xl lg:text-5xl" />
+    ),
     name: "Node.js",
-    experience: "3+ years",
+    experience: "3 years",
   },
   {
-    icon: <SiJavascript className="text-2xl text-yellow-500 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <SiJavascript className="text-2xl text-yellow-500 md:text-4xl lg:text-5xl" />
+    ),
     name: "JavaScript",
-    experience: "3+ years",
+    experience: "3 years",
   },
   {
-    icon: <TbBrandNextjs className="text-3xl text-gray-400 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <TbBrandNextjs className="text-3xl text-gray-400 md:text-4xl lg:text-5xl" />
+    ),
     name: "Next.js",
-    experience: "1+ year",
+    experience: "1 year",
   },
   {
-    icon: <SiMongodb className="text-3xl text-green-600 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <SiMongodb className="text-3xl text-green-600 md:text-4xl lg:text-5xl" />
+    ),
     name: "MongoDB",
-    experience: "1+ year",
+    experience: "1 year",
   },
   {
-    icon: <BiLogoPostgresql className="text-3xl text-sky-800 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <BiLogoPostgresql className="text-3xl text-sky-800 md:text-4xl lg:text-5xl" />
+    ),
     name: "PostgreSQL",
-    experience: "1+ year",
+    experience: "1 year",
   },
   {
     icon: <FaHtml5 className="text-3xl text-red-500 md:text-4xl lg:text-5xl" />,
     name: "HTML5",
-    experience: "3+ years",
+    experience: "3 years",
   },
   {
-    icon: <IoLogoCss3 className="text-3xl text-sky-600 md:text-4xl lg:text-5xl" />,
+    icon: (
+      <IoLogoCss3 className="text-3xl text-sky-600 md:text-4xl lg:text-5xl" />
+    ),
     name: "CSS3",
-    experience: "3+ years",
+    experience: "3 years",
   },
 ];
 
@@ -170,9 +183,9 @@ export const EXPERIENCES = [
   {
     title: "Desarrollador Fullstack Jr",
     company: "Soluproint SAS - Seguridad a la mano",
-    duration: "Abril 2024 - Actualidad",
+    duration: "Abril 2024 - Diciembre 2024",
     description:
-      "Estoy a cargo del desarrollo de una aplicación web-móvil dirigida al personal de seguridad privada en Colombia, cuenta con una interfaz intuitiva y funcional que permite  a los usuarios registrarse y participar en servicios diseñados para vigilantes, escoltas y profesionales del sector. La App-Web Seguridad a la mano le brinda al usuario gestión de ofertas laborales, actualización de cursos y conexión con empresas. A través de este proyecto, he fortalecido mis habilidades técnicas y de comunicación, trabajando en equipo y cumpliendo con los plazos de entrega.",
+      "Estuve a cargo del desarrollo de una aplicación web-móvil dirigida al personal de seguridad privada en Colombia, cuenta con una interfaz intuitiva y funcional que permite  a los usuarios registrarse y participar en servicios diseñados para vigilantes, escoltas y profesionales del sector. La App-Web Seguridad a la mano le brinda al usuario gestión de ofertas laborales, actualización de cursos y conexión con empresas. A través de este proyecto, he fortalecido mis habilidades técnicas y de comunicación, trabajando en equipo y cumpliendo con los plazos de entrega.",
     industry: "Vigilancia, Seguridad Privada.",
   },
   {
@@ -276,14 +289,20 @@ export const SOCIAL_LINKS_HOME = [
   },
   {
     href: "https://www.linkedin.com/in/manuela-lopez-v/",
-    icon: <FaLinkedin fontSize={28} className="hover:opacity-80 cursor-pointer" />,
+    icon: (
+      <FaLinkedin fontSize={28} className="hover:opacity-80 cursor-pointer" />
+    ),
   },
   {
     href: "",
-    icon: <FaDiscord fontSize={28} className="hover:opacity-80 cursor-pointer" />,
+    icon: (
+      <FaDiscord fontSize={28} className="hover:opacity-80 cursor-pointer" />
+    ),
   },
   {
     href: "https://x.com/manulopez_v",
-    icon: <FaXTwitter fontSize={28} className="hover:opacity-80 cursor-pointer" />,
+    icon: (
+      <FaXTwitter fontSize={28} className="hover:opacity-80 cursor-pointer" />
+    ),
   },
 ];
