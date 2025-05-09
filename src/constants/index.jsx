@@ -19,7 +19,7 @@ import { IoLogoCss3 } from "react-icons/io";
 export const GREETING = {
   name: "Manuela López",
   greet: "Hola,",
-  description: "DESARROLLADORA FULLSTACK JR",
+  description: "DESARROLLADORA FULLSTACK SSR",
 };
 
 export const NAVIGATION_LINKS = [
@@ -34,7 +34,7 @@ export const NAVIGATION_LINKS = [
 export const ABOUT_ME = [
   {
     firstParagraph:
-      "Desarrolladora Fullstack con más de 2 años de experiencia práctica en el desarrollo de aplicaciones web y móviles modernas, creando soluciones innovadoras y eficientes utilizando JavaScript y sus frameworks más populares como React y Node.js.",
+      "Desarrolladora Fullstack con 4 años de experiencia práctica en el desarrollo de aplicaciones web y móviles modernas, creando soluciones innovadoras y eficientes utilizando JavaScript y sus frameworks más populares como React y Node.js.",
   },
   {
     firstParagraph:
@@ -52,58 +52,70 @@ export const STACK = [
       <RiReactjsLine className="text-3xl text-cyan-400 md:text-4xl lg:text-5xl" />
     ),
     name: "React",
-    experience: "2 years",
+    experience: "4 years",
   },
   {
     icon: (
       <FaNodeJs className="text-3xl text-green-600 md:text-4xl lg:text-5xl" />
     ),
     name: "Node.js",
-    experience: "3 years",
+    experience: "5 years",
   },
   {
     icon: (
       <SiJavascript className="text-2xl text-yellow-500 md:text-4xl lg:text-5xl" />
     ),
     name: "JavaScript",
-    experience: "3 years",
+    experience: "5 years",
   },
   {
     icon: (
       <TbBrandNextjs className="text-3xl text-gray-400 md:text-4xl lg:text-5xl" />
     ),
     name: "Next.js",
-    experience: "1 year",
+    experience: "2 years",
   },
   {
     icon: (
       <SiMongodb className="text-3xl text-green-600 md:text-4xl lg:text-5xl" />
     ),
     name: "MongoDB",
-    experience: "1 year",
+    experience: "3 years",
   },
   {
     icon: (
       <BiLogoPostgresql className="text-3xl text-sky-800 md:text-4xl lg:text-5xl" />
     ),
     name: "PostgreSQL",
-    experience: "1 year",
+    experience: "3 years",
   },
   {
     icon: <FaHtml5 className="text-3xl text-red-500 md:text-4xl lg:text-5xl" />,
     name: "HTML5",
-    experience: "3 years",
+    experience: "5 years",
   },
   {
     icon: (
       <IoLogoCss3 className="text-3xl text-sky-600 md:text-4xl lg:text-5xl" />
     ),
     name: "CSS3",
-    experience: "3 years",
+    experience: "5 years",
   },
 ];
 
 export const PROJECTS = [
+  // {
+  //   id: 1,
+  //   titleColor: "light",
+  //   textColor: "white",
+  //   name: "Planetarium",
+  //   description:
+  //     "Aplicación web que permite a los usuarios explorar el sistema solar, visualizar información sobre planetas y satélites, y realizar búsquedas específicas. Utiliza la API de la NASA para obtener datos actualizados y ofrece una experiencia interactiva y educativa.",
+  //   technologies: "Next.js, Tailwind, Framer Motion, Zustand",
+  //   image: fupammar,
+  //   github: "https://github.com/Soluproint/Seguridad-a-la-mano-2024",
+  //   link: "https://app-web.seguridadalamano.com/",
+  // },
   {
     id: 1,
     titleColor: "light",
@@ -181,7 +193,15 @@ export const PROJECTS = [
 
 export const EXPERIENCES = [
   {
-    title: "Desarrollador Fullstack Jr",
+    title: "Desarrollador Frontend",
+    company: "Doctor Technology",
+    duration: "Enero 2025 - Actualidad",
+    description:
+      "Me he desempeñado en el desarrollo de interfaces web responsivas utilizando tecnologías como React.js y TypeScript, implementando diseños UI/UX basados en prototipos de alta fidelidad. He trabajado en la integración y consumo de APIs REST para conectar el frontend con servicios externos, y he colaborado de forma activa con equipos de diseño, backend y QA dentro de entornos ágiles, aplicando metodologías como Scrum.",
+    industry: "Academia, Deporte",
+  },
+  {
+    title: "Desarrollador Fullstack",
     company: "Soluproint SAS - Seguridad a la mano",
     duration: "Abril 2024 - Diciembre 2024",
     description:
@@ -197,12 +217,20 @@ export const EXPERIENCES = [
     industry: "Psicoterapia, Salud Mental",
   },
   {
-    title: "Desarrollador Frontend Jr",
+    title: "Desarrollador Fullstack",
     company: "Soluproint SAS",
-    duration: "Octubre 2023 - Abril 2024",
+    duration: "Febrero 2023 - Abril 2024",
     description:
       "Desarrollé la página web corporativa de la empresa Soluproint, destacando la misión, visión y valores de la organización, así como el portafolio de servicios ofrecidos, mejorando la presencia en línea y la comunicación con los clientes. Propuse y desarrollé un blog centrado en tendencias de ciberseguridad y seguridad de la información, implementando un CMS Strapi junto con PostgreSQL, lo que facilitó la publicación de noticias y la gestión del contenido del blog. Ejecuté pruebas de software y ataques de penetración para detectar y mitigar vulnerabilidades en la aplicación web, garantizando que las soluciones desarrolladas cumplieran con los estándares de calidad y las necesidades del negocio.",
     industry: "Seguridad de la información, Ciberseguridad",
+  },
+  {
+    title: "Desarrollador Web",
+    company: "Universidad Politécnico Colombiano Jaime Isaza Cadavid",
+    duration: "Febrero 2021 - Octubre 2022",
+    description:
+      "Participé en la creación de funcionalidades y componentes interactivos, así como en el mantenimiento y actualización de módulos funcionales del sitio web institucional. También contribuí a la implementación de prácticas de seguridad para prevenir posibles amenazas, realicé revisiones y pruebas de funcionalidad, depuración de código, y me encargué de documentar el código desarrollado y elaborar reportes técnicos.",
+    industry: "Universidad, Educación",
   },
 ];
 
@@ -210,10 +238,24 @@ export const EDUCATION = [
   {
     degree: "Técnica Profesional en Programación de Sistemas de Información",
     institution: "Politécnico Colombiano Jaime Isaza Cadavid",
-    duration: "Febrero 2022 - Septiembre 2024",
+    duration: "Febrero 2020 - Septiembre 2022",
     description:
       "Formación sólida base en el desarrollo de software y gestión de sistemas de información, con énfasis en lenguajes de programación como Java, Python, JavaScript. Desarrollé habilidades en bases de datos, tanto en conocimiento de SQL, cómo en modelado y gestión de bases de datos. Aprendí a diseñar, implementar y mantener aplicaciones informáticas, aplicando metodologías de desarrollo ágil y buenas prácticas de programación. Realicé varios proyectos cómo programas de escritorio, de desarrollo de fullstack, algoritmos y estructuras de datos.",
     aditional: "Graduada con promedio 4,2.",
+  },
+  {
+    degree: "React PRO",
+    institution: "{d/t} - DevTalles",
+    duration: "Abril 2025",
+    description:
+      "Mejoré mis habilidades en React, aprendiendo a crear componentes modulares y reutilizables para una arquitectura más limpia. Reforcé mis conocimientos en el manejo del estado y Hooks, optimización del rendimiento y gestión de rutas. Aprendí a integrar TypeScript para mejorar la calidad y mantenibilidad del código. Además, adquirí experiencia en la integración de APIs y el uso de librerías populares como Axios y Styled Components y también el manejo avanzado de formularios y validaciones.",
+  },
+  {
+    degree: "Patrones de Diseño: Soluciones prácticas y eficientes",
+    institution: "{d/t} - DevTalles",
+    duration: "Abril 2025",
+    description:
+      "Aprendí a aplicar 24 patrones de diseño que me han ayudado a escribir código más organizado, reutilizable y fácil de mantener. Cada patrón se explicó con ejemplos claros en TypeScript y lo mejor fue poder practicar con ejercicios que realmente me hicieron entender cuándo y por qué usarlos. Me gustó mucho la forma en que se estructuró el contenido, porque no solo fue teórico, sino muy práctico, y ahora me siento con más confianza para enfrentar problemas complejos con soluciones bien pensadas y profesionales.",
   },
   {
     degree: "Node.js: De cero a experto",
@@ -249,13 +291,6 @@ export const EDUCATION = [
     duration: "Abril 2024 - Abril 2024",
     description:
       "Curso avanzado de HTML y CSS, donde aprendí a crear sitios web modernos y responsivos, utilizando las últimas tecnologías y técnicas de diseño. Adquirí conocimientos sobre maquetación, diseño web, animaciones, flexbox, grid, responsive design, entre otros. Realicé varios proyectos prácticos que me permitieron aplicar los conceptos aprendidos y mejorar mis habilidades de desarrollo frontend.",
-  },
-  {
-    degree: "Diplomado en Programación en Java:",
-    institution: "Politécnico de Colombia",
-    duration: "Agosto 2023- Septiembre 2023",
-    description:
-      "Conocimiento de los conceptos básicos y aplicaciones del lenguaje Java para la programación en cuanto a variables, operadores, tipos de datos, clases de Java, también se abordan diferentes módulos de estructuras condicionales y  de iteración para almacenamiento de datos en vectores y matrices, estructuración de la programación orientada a objetos y sus componentes y  caracteristicas teoricas de la programación web en Java.",
   },
 ];
 

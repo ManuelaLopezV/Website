@@ -1,5 +1,5 @@
 import { ABOUT_ME } from "../constants";
-import manuelaImg from "../assets/foto-manu2.png";
+import manuelaImg from "../assets/foto-manu.png";
 import { motion } from "framer-motion";
 
 const AboutMe = () => {
@@ -14,7 +14,7 @@ const AboutMe = () => {
         Acerca de mi
       </motion.h2>
       <div className="container flex flex-col h-full items-center lg:flex-row lg:text-lg xl:items-center xl:px-28 2xl">
-        <div className="w-full xl:w-2/5">
+        <div className="w-2/4 xl:w-2/5">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}

@@ -5,11 +5,11 @@ import manuelaEmoji from "../assets/manuela-emoji-2.png";
 import { useTheme } from "../theme/ThemeContext";
 import moonIcon from "../assets/moon.svg";
 import sunIcon from "../assets/sun.svg";
-import CV from "../assets/CV_Manuela_López.pdf";
+import CV from "../assets/CV_Manuela_Lopez.pdf";
 
 const Home = () => {
   const { theme, toggleTheme } = useTheme();
-  
+
   const themeIcon = theme === "Light" ? sunIcon : moonIcon;
 
   return (
@@ -37,7 +37,8 @@ const Home = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="flex flex-col gap-6 items-center lg:gap-8 lg:mt-5 xl:mt-0">
+        className="flex flex-col gap-6 items-center lg:gap-8 lg:mt-5 xl:mt-0"
+      >
         <div className="flex flex-col">
           <p className="text-lg tracking-tighter md:text-xl lg:text-2xl xl:text-3xl">
             Soy <span className="text-purple-500">[{GREETING.name}]</span>
@@ -46,7 +47,9 @@ const Home = () => {
             de Medellín, Colombia.
           </p>
         </div>
-        <p className="text-lg md:text-xl lg:text-xl xl:text-2xl font-bold underline">{GREETING.description}</p>
+        <p className="text-lg md:text-xl lg:text-xl xl:text-2xl font-bold underline">
+          {GREETING.description}
+        </p>
         <span className="flex gap-7 justify-center lg:gap-8">
           {SOCIAL_LINKS_HOME.map((link, index) => (
             <motion.a
@@ -65,7 +68,7 @@ const Home = () => {
         </span>
         <a
           href={CV}
-          download  
+          download
           className="flex w-1/2 justify-center mt-5 text-xs/[13px] md:text-sm md:w-3/5 md:mt-3 lg:text-base xl:text-lg xl:p-2.5 rounded border border-stone-50/30 bg-purple-400 px-4 py-2 font-semibold text-stone-900 hover:bg-purple-600"
         >
           Descargar CV
