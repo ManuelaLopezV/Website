@@ -5,7 +5,7 @@ import happyPets from "../assets/happy-pets.png";
 import blogSoluproint from "../assets/blog-soluproint.png";
 import psicodava from "../assets/psicodava.png";
 import videoplayer from "../assets/videoplayer.png";
-import fupammar from "../assets/fupammar.png";
+import planetarium from "../assets/planetarium-app-2.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -104,20 +104,20 @@ export const STACK = [
 ];
 
 export const PROJECTS = [
-  // {
-  //   id: 1,
-  //   titleColor: "light",
-  //   textColor: "white",
-  //   name: "Planetarium",
-  //   description:
-  //     "Aplicación web que permite a los usuarios explorar el sistema solar, visualizar información sobre planetas y satélites, y realizar búsquedas específicas. Utiliza la API de la NASA para obtener datos actualizados y ofrece una experiencia interactiva y educativa.",
-  //   technologies: "Next.js, Tailwind, Framer Motion, Zustand",
-  //   image: fupammar,
-  //   github: "https://github.com/Soluproint/Seguridad-a-la-mano-2024",
-  //   link: "https://app-web.seguridadalamano.com/",
-  // },
   {
     id: 1,
+    titleColor: "light",
+    textColor: "white",
+    name: "Planetarium",
+    description:
+      "Aplicación web que permite a los usuarios explorar el sistema solar, visualizar información sobre planetas y satélites, y realizar búsquedas específicas. Ofrece una experiencia interactiva y educativa.",
+    technologies: "Next.js, Tailwind, Framer Motion, Zustand",
+    image: planetarium,
+    github: "https://github.com/ManuelaLopezV/planetarium-app",
+    link: "https://planetarium-app.vercel.app/",
+  },
+  {
+    id: 2,
     titleColor: "light",
     textColor: "white",
     name: "App Seguridad a la mano",
@@ -129,7 +129,7 @@ export const PROJECTS = [
     link: "https://app-web.seguridadalamano.com/",
   },
   {
-    id: 2,
+    id: 3,
     titleColor: "dark",
     textColor: "black",
     name: "Happy Pets",
@@ -141,7 +141,7 @@ export const PROJECTS = [
     link: "https://happy-pets-beryl.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     titleColor: "light",
     textColor: "white",
     // name: "CyberByte Blog",
@@ -154,7 +154,7 @@ export const PROJECTS = [
     link: "https://www.soluproint.com/blog",
   },
   {
-    id: 4,
+    id: 5,
     titleColor: "dark",
     textColor: "black",
     name: "PSICODAVA",
@@ -166,7 +166,7 @@ export const PROJECTS = [
     link: "https://psicodava.github.io/website/",
   },
   {
-    id: 5,
+    id: 6,
     titleColor: "light",
     textColor: "white",
     name: "Video Player",
@@ -176,18 +176,6 @@ export const PROJECTS = [
     image: videoplayer,
     github: "https://github.com/ManuelaLopezV/video-player",
     link: "https://manuelalopezv.github.io/video-player/",
-  },
-  {
-    id: 6,
-    titleColor: "dark",
-    textColor: "black",
-    name: "FUPAMMAR",
-    description:
-      "Página web de la fundación FUPAMMAR que permite adopciones y donaciones a una fundación de perros.",
-    technologies: "HTML, CSS, Node.js, Oracle",
-    image: fupammar,
-    github: "https://github.com/ManuelaLopezV/FUPAMMAR",
-    link: "",
   },
 ];
 
