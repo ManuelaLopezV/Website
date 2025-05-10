@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { GREETING } from "../constants";
 import { SOCIAL_LINKS_HOME } from "../constants";
-import manuelaEmoji from "../assets/manuela-emoji-2.png";
+import manuelaEmoji from "../assets/manuela-emoji.png";
 import { useTheme } from "../theme/ThemeContext";
 import moonIcon from "../assets/moon.svg";
 import sunIcon from "../assets/sun.svg";

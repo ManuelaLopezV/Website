@@ -14,7 +14,7 @@ const AboutMe = () => {
         Acerca de mi
       </motion.h2>
       <div className="container flex flex-col h-full items-center lg:flex-row lg:text-lg xl:items-center xl:px-28 2xl">
-        <div className="w-2/4 xl:w-2/5">
+        <div className="w-1/3 xl:w-2/5">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -25,7 +25,7 @@ const AboutMe = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
-              className="rounded-3xl w-56 sm:w-60 md:w-64 lg:w-72 lg:mb-8 xl:w-80"
+              className="rounded-3xl w-40 sm:w-48 lg:w-56 lg:mb-16 lg:ml-20 xl:w-60"
               src={manuelaImg}
               alt="Manuela López"
             />
@@ -36,7 +36,7 @@ const AboutMe = () => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex flex-col w-4/5 my-8 items-center sm:w-4/5 lg:w-full xl:w-3/5"
+          className="flex flex-col w-4/5 m-8 items-center sm:w-4/5 lg:w-3/5 xl:w-3/5"
         >
           {ABOUT_ME.map((about, index) => (
             <motion.p

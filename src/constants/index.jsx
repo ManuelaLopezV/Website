@@ -5,7 +5,7 @@ import happyPets from "../assets/happy-pets.png";
 import blogSoluproint from "../assets/blog-soluproint.png";
 import psicodava from "../assets/psicodava.png";
 import videoplayer from "../assets/videoplayer.png";
-import planetarium from "../assets/planetarium-app-2.png";
+import planetarium from "../assets/planetarium-app.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -111,7 +111,7 @@ export const PROJECTS = [
     name: "Planetarium",
     description:
       "Aplicación web que permite a los usuarios explorar el sistema solar, visualizar información sobre planetas y satélites, y realizar búsquedas específicas. Ofrece una experiencia interactiva y educativa.",
-    technologies: "Next.js, Tailwind, Framer Motion, Zustand",
+    technologies: "Next.js, Tailwind, Zustand",
     image: planetarium,
     github: "https://github.com/ManuelaLopezV/planetarium-app",
     link: "https://planetarium-app.vercel.app/",
